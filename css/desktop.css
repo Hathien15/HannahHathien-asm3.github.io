@@ -336,11 +336,11 @@ header .banner img {
     font-size: 18px;
 }
 
-.project-list .desc:not(:last-of-type) {
+.project-list .abc:not(:last-of-type) {
     border-bottom: 1px solid #ccc;
 }
 
-.project-list .desc .time {
+.project-list .abc .time {
     padding: 4px;
     display: inline-block;
     text-align: center;
@@ -350,21 +350,21 @@ header .banner img {
     flex: 0;
 }
 
-.project-list .desc {
+.project-list .abc {
     padding: 8px 12px;
     font-size: 14px;
 }
 
-.project-list .desc:nth-of-type(1) {
+.project-list .abc:nth-of-type(1) {
     gap: 8px;
 }
 
-.project-list .desc:not(:nth-of-type(1)) span {
+.project-list .abc:not(:nth-of-type(1)) span {
     display: inline-block;
     flex: 1;
 }
 
-.project-list .desc:not(:nth-of-type(1)) p {
+.project-list .abc:not(:nth-of-type(1)) p {
     flex: 2;
 }
 
